@@ -1,0 +1,30 @@
+List<Edge> BUCKET //global variable used by both subroutines
+
+MST_PRIM(Node START)
+ 1   List<Edge> MST_EDGES
+ 2   TOTAL_WEIGHT = 0
+ 3   Add all of START's adjacent edges to BUCKET
+ 4   Edge E = GET_BEST_EDGE()
+ 5   while E is not NIL
+ 6      Let n1, n2 be E's nodes
+ 7      Mark both n1 and n2 as visited
+ 8      Add E's weight to TOTAL_WEIGHT
+ 9      Add E to MST_EDGES
+10      Add all of n1's edges to BUCKET
+11      Add all of n2's edges to BUCKET
+12      E = GET_BEST_EDGE()
+13   end-while
+14   print out TOTAL_WEIGHT
+15   print out all edges in MST_EDGES
+
+
+GET_BEST_EDGE()
+1   Edge BEST = NIL
+2   while BEST is NIL and BUCKET is not empty:
+3      BEST = MIN(BUCKET)
+4      if both of BEST's nodes are already visited:
+5         delete BEST from BUCKET
+6         BEST = NIL
+7      end-if
+8   end-while
+9   return BEST

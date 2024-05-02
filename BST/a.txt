@@ -1,0 +1,14 @@
+(tree deleted!)
+Adding 30
+Adding 20
+Adding 40
+Adding 10
+Adding 15
+Adding 35
+Looking for 15... 30 20 10 15 found
+INORDER: 10 15 20 30 35 40 
+POSTORDER: 15 10 20 35 40 30 
+PREORDER: 30 20 10 15 40 35 
+Looking for 36... 30 40 35 not found
+(tree deleted!)
+Looking for 40... not found

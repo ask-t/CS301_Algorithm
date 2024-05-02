@@ -1,0 +1,8 @@
+MST has a weight of 12 and consists of these edges:
+G - H
+B - E
+F - G
+E - F
+B - D
+C - D
+A - E

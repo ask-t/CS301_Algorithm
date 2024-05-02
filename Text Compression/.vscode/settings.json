@@ -1,0 +1,9 @@
+{
+  "files.associations": {
+    "unordered_map": "cpp",
+    "ios": "cpp",
+    "bitset": "cpp",
+    "map": "cpp",
+    "string": "cpp"
+  }
+}

@@ -1,0 +1,4 @@
+3
+Asuku|11111|25|Developer|2022
+Simon|111112|23|Worker|2023
+Manami|1111113|21|Misionary|2022

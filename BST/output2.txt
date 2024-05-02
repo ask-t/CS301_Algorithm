@@ -1,0 +1,15 @@
+Adding 5
+Adding 10
+Adding 7
+Adding 90
+PREORDER: 5 10 7 90
+Looking for 3... 5  : not found
+Adding 3
+Adding 67
+Adding 22
+Adding 1
+Adding 4
+POSTORDER: 1 4 3 7 22 67 90 10 5
+PREORDER: 5 3 1 4 10 7 90 67 22
+INORDER: 1 3 4 5 7 10 22 67 90
+

@@ -1,0 +1,11 @@
+FOUND: Name: Belwit Xuwokadi, Age: 32, Job: Project Manager, Hired: 2005
+at index 79 after 80 comparisons.
+FOUND: Name: Boswell Byxu, Age: 36, Job: Bookkeeper, Hired: 1995
+at index 22 after 23 comparisons.
+FOUND: Name: Oogle Tiweki, Age: 29, Job: Analyst, Hired: 2003
+at index 0 after 1 comparisons.
+FOUND: Name: Krill Henoba, Age: 53, Job: Bookkeeper, Hired: 1993
+at index 65 after 66 comparisons.
+FOUND: Name: Quendor Lotatyvu, Age: 53, Job: Engineer, Hired: 1990
+at index 75 after 76 comparisons.
+Done! Average amount of work per query: 49.2 comparisons.
